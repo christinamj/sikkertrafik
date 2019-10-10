@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 130px;
+    background-color: #373D46;
+}
+
+nav {
+    width: 100vw;
+    height: 60px;
+    background-color: #28292C;
+    padding: 10px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav img {
+    height: 100%;
+}
+
+#menupunkter {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+
+#menupunkter a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+
+#splash {
+    width: 100vw;
+    height: 60vh;
+    background-image: url(imgs/snoet-vej-en-bil_redigeret.jpg);
+
+
+}
+
+#sectionwrapper {}
