@@ -1,49 +1,90 @@
+/*FONTS*/
+
+@font-face {
+    font-family: "myfont";
+    src: url("fonts/safety-webfont.woff") format('woff');
+}
+
+
+* {
+    font-family: myfont;
+}
+
+
 body {
     margin: 0;
 }
 
 header {
     width: 100vw;
-    height: 130px;
-    background-color: #373D46;
+
 }
+
+/*MENU*/
 
 nav {
     width: 100vw;
     height: 60px;
     background-color: #28292C;
-    padding: 10px;
-    padding-left: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+
 }
 
 nav img {
-    height: 100%;
+    height: 90%;
+    padding-left: 20px;
 }
 
-#menupunkter {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 20px;
+/*BURGERMENU*/
+
+#menu {
+    position: absolute;
+    flex-direction: column;
+    background-color: #28292C;
+    width: 100vw;
+    top: 64px;
+    padding: 30px;
+    transition: transform .3s;
+    list-style: none;
 
 }
 
-#menupunkter a {
+#menu a {
     text-decoration: none;
     color: white;
-    font-family: sans-serif;
-    padding-top: 5px;
+
 }
+
+#menu_knap {
+    display: inline-block;
+    text-align: right;
+    padding-right: 20px;
+    width: 50px;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+
+
+}
+
+.hidden {
+    display: none;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+/*SPLASH*/
+
 
 #splash {
     width: 100vw;
-    height: 60vh;
+    height: 40vh;
     background-image: url(imgs/snoet-vej-en-bil_redigeret.jpg);
-
-
+    background-position: center
 }
 
 #sectionwrapper {}
