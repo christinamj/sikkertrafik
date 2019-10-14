@@ -52,6 +52,20 @@ nav img {
     padding-left: 20px;
 }
 
+.undermenu {
+    width: 100vw;
+    height: 30px;
+    background-color: #373D46;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.undermenu a {
+    text-decoration: none;
+    color: white;
+}
+
 /*BURGERMENU*/
 
 #menu {
@@ -100,7 +114,7 @@ nav img {
 #splash {
     display: flex;
     width: 100vw;
-    background-image: url(imgs/snoet-vej-en-bil_redigeret.jpg);
+    background-image: url(imgs/testheader.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -110,7 +124,7 @@ nav img {
 .kampagne_video {
     display: flex;
     width: 100vw;
-    height: 75vh;
+    padding-bottom: 100px;
     background-color: #434B59;
     background-size: cover;
     background-position: center;
