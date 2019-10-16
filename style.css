@@ -401,7 +401,7 @@ footer img {
 		float: left;
 	}
 
-	iframe {
+	#video iframe {
 		width: 960px;
 		height: 615px;
 
